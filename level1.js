@@ -945,15 +945,15 @@ fata.animations.play('sbattito');
 vignettatura_viewport = game.add.sprite(0,0,'vignettatura');
 vignettatura_viewport.fixedToCamera = true;
 
-score = game.add.text(100, 44, '...', style1); //100, 44,
+score = game.add.text(100, 0, '...', style1); //100, 44,
 score.fixedToCamera = true;
 score.alpha =1;
 
-score2 = game.add.text(100, 44, '...', style1); //100, 44,
+score2 = game.add.text(100, 0, '...', style1); //100, 44,
 score2.fixedToCamera = true;
 score2.alpha =0;
 
-scoreIcon = game.add.sprite(55,0,'coin') //55
+scoreIcon = game.add.sprite(55,48,'coin') //55
 scoreIcon.fixedToCamera = true;
 scoreIcon.animations.add('coinflip',[0,1,2,3,4,5], 12, true )
 scoreIcon.animations.play('coinflip');
