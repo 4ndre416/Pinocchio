@@ -945,11 +945,11 @@ fata.animations.play('sbattito');
 vignettatura_viewport = game.add.sprite(0,0,'vignettatura');
 vignettatura_viewport.fixedToCamera = true;
 
-score = game.add.text(100, -44, '...', style1); //100, 44,
+score = game.add.text(100, -54, '...', style1); //100, 44,
 score.fixedToCamera = true;
 score.alpha =1;
 
-score2 = game.add.text(100, -44, '...', style1); //100, 44,
+score2 = game.add.text(100, -54, '...', style1); //100, 44,
 score2.fixedToCamera = true;
 score2.alpha =0;
 
